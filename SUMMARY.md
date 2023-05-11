@@ -11,4 +11,4 @@
 
 * [dynamic programing](category/dynamic-programing/README.md)
   * [easy dp](category/dynamic-programing/easy-dp/README.md)
-    * [Sending a Sequence Over the Network](category/dynamic-programing/easy-dp/sending-a-sequence-over-the-network.md)
+    * [Codeforces Round 826 Div. 3-E](category/dynamic-programing/easy-dp/codeforces-round-826-div.-3-e.md)
