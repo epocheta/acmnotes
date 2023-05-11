@@ -1,14 +1,8 @@
 # basic
 
-## basic algorithms
-
-### high precision
-
-use python \~\~\~
-
 ### binary search
 
-```
+```clike
 // eg: vector<int> a(n);
 int l = -1, r = n;
 while (l + 1 != r) {
@@ -19,7 +13,7 @@ while (l + 1 != r) {
 return r or l;
 ```
 
-### prefix and dif
+### sum of prefix and diffrence
 
 ```cpp
 // eg: int a[n]; or int a[n][m];
@@ -61,15 +55,8 @@ void modi_1d(int l, int r, int k) {
 }
 
 void modi_2d(int x1, int y1, int x2, int y2, int k) {
-    dif[x2][y2] += k, dif[x1 + 1][y2] -= k, dif[x2][y1 + 1] -= k, dif[x1 + 1][y1 + 1] += k;
-}
-```
-
-### double pointer
-
-```cpp
-for (int i = 0, j = 0; i < n; i ++) {
-    while (check()) j++;
+    dif[x2][y2] += k, dif[x1 + 1][y2] -= k;
+    dif[x2][y1 + 1] -= k, dif[x1 + 1][y1 + 1] += k;
 }
 ```
 

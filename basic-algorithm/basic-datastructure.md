@@ -1,7 +1,5 @@
 # basic datastructure
 
-
-
 ### link list
 
 ```cpp
@@ -91,19 +89,7 @@ bool emoty() { return tail >= head; }
 
 ### cycle queue
 
-### monotonic queue
 
-```cpp
-int queue[maxn], tail = -1, head = 0;
-int a[n];
-for (int i = 0; i < n; i++) {
-    while (tail >= head && queue[tail] > a[i]) tail -= 1;
-    queue[++tail] = a[i];
-    std::cout << queue[head] << ' ';
-}
-
-// 维护最大的：同理
-```
 
 ### monotanic stack
 
@@ -116,6 +102,19 @@ for (int i = 0; i < n; i++) {
     if (top != -1) std::cout << stack[top] << ' ';
     else std::cout << -1 << ' ';
 }
+```
+
+### monotonic queue
+
+```cpp
+int queue[maxn], tail = -1, head = 0;
+int a[n];
+for (int i = 0; i < n; i++) {
+    while (tail >= head && queue[tail] > a[i]) tail -= 1;
+    queue[++tail] = a[i];
+    std::cout << queue[head] << ' ';
+}
+// 维护最大的：同理
 ```
 
 ### kmp
@@ -143,9 +142,12 @@ int find(int x) {
     if (father[x] != x) father[x] = find(father[x]);
     return father[x];
 }
+```
 
+维护额外信息的并查集：
+
+```cpp
 // 维护集合中点的个数的并查集， 需要开一个 d[maxn] 数组记录
-
 // 维护集合中点的距离的并查集
 
 int d[maxn];
@@ -157,13 +159,4 @@ int find(int x) {
     }
     return f[x];
 }
-
 ```
-
-### heap
-
-忘了，只学了 down，up；
-
-### hash table
-
-没学
