@@ -4,9 +4,11 @@
 
 ## codeforces
 
-* [under div2](codeforces/under-div2.md)
-* [div 2](codeforces/div-2.md)
+* [inferior to div2](codeforces/inferior-to-div2.md)
+* [div 2](group-1/page-1/page-2/README.md)
 
-## something
+## category
 
-* [Page 3](something/page-3.md)
+* [dynamic programing](category/dynamic-programing/README.md)
+  * [easy dp](category/dynamic-programing/easy-dp/README.md)
+    * [Sending a Sequence Over the Network](category/dynamic-programing/easy-dp/sending-a-sequence-over-the-network.md)
