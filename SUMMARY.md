@@ -1,3 +1,3 @@
 # Table of contents
 
-* [Acm Templates](README.md)
+* [Acm Notes](README.md)
