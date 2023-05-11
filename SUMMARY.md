@@ -4,7 +4,7 @@
 
 ## codeforces
 
-* [inferior to div2](codeforces/inferior-to-div2.md)
+* [inferior to div2](group-1/page-1/README.md)
 * [div 2](group-1/page-1/page-2/README.md)
 
 ## category
