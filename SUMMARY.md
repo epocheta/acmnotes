@@ -1,12 +1,13 @@
 # Table of contents
 
-* [I am a newbie](README.md)
+* [Intro](README.md)
 
 ## 📚 Basic algorithm
 
-* [high precision](basic-algorithm/high-precision.md)
-* [basic](basic-algorithm/basic.md)
-* [basic datastructure](basic-algorithm/basic-datastructure.md)
-* [graph theory](basic-algorithm/graph-theory.md)
+* [basic](basic-algorithm/basic/README.md)
+  * [basic basic](basic-algorithm/basic/basic-basic.md)
+  * [high precision](basic-algorithm/basic/high-precision.md)
+  * [basic datastructure](basic-algorithm/basic/basic-datastructure.md)
+  * [graph theory](basic-algorithm/basic/graph-theory.md)
 
 ## Basic Datastructure
