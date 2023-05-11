@@ -1,8 +1,11 @@
 # Table of contents
 
 * [newbie](README.md)
-* [high](high.md)
 
-## Group 1
+## 📚 Basic algorithm
 
-* [Page 3](group-1/page-3.md)
+* [basic](basic-algorithm/basic.md)
+* [basic datastructure](basic-algorithm/basic-datastructure.md)
+* [graph theory](basic-algorithm/graph-theory.md)
+
+## Basic Datastructure
