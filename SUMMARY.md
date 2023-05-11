@@ -1,6 +1,6 @@
 # Table of contents
 
-* [newbie](README.md)
+* [I am a newbie](README.md)
 
 ## 📚 Basic algorithm
 
