@@ -1,4 +1,4 @@
-# Codeforces Round 826 Div. 3-E
+# Codeforces Round 826 Div.3-E
 
 #### Problem Link: [Sending a Sequence Over the Network](https://codeforces.com/contest/1741/problem/E)
 
