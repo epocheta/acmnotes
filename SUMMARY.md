@@ -19,8 +19,3 @@
   * [Food chians](category/disjoint-set/food-chians.md)
 * [Discretization](category/discretization/README.md)
   * [区间和](category/discretization/qu-jian-he.md)
-
-## Template
-
-* [Problem Solution Template](template/problem-solution-template.md)
-* [Problem Set Solution Template](template/problem-set-solution-template.md)
