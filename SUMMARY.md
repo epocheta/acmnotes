@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Ques collection](README.md)
+* [Intro](README.md)
 
 ## codeforces
 
