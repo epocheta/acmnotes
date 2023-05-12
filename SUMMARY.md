@@ -2,17 +2,17 @@
 
 * [Intro](README.md)
 
-## codeforces
+## codeforces <a href="#crossfire" id="crossfire"></a>
 
-* [Virtual Participation](codeforces/virtual-participation/README.md)
-  * [Codeforces Round 850 Div. 2](codeforces/virtual-participation/codeforces-round-850-div.-2.md)
-* [Div. 2](group-1/page-1/page-2/README.md)
-* [Div. 3 or Div. 4](group-1/page-1/README.md)
+* [Virtual Participation](crossfire/virtual-participation/README.md)
+  * [Codeforces Round 850 Div. 2](crossfire/virtual-participation/codeforces-round-850-div.-2.md)
+* [Div. 2](crossfire/page-2.md)
+* [Div. 3 or Div. 4](crossfire/page-1.md)
 
 ## category
 
 * [Dynamic Programing](category/dynamic-programing/README.md)
-  * [Codeforces Round 826 Div.3-E](category/dynamic-programing/codeforces-round-826-div.3-e.md)
+  * [Codeforces Round 826 Div.3-E](category/dynamic-programing/easy-dp/codeforces-round-826-div.3-e.md)
 * [Disjoint Set](category/disjoint-set/README.md)
   * [Phase\_Shift](category/disjoint-set/phase\_shift.md)
   * [Mocha and Diana (Easy Version)](category/disjoint-set/mocha-and-diana-easy-version.md)
