@@ -1,9 +1,5 @@
 # Codeforces Round 850 Div.2
 
-VP 之前在和朋友讨论数学建模的选题，感觉自己还挺急的，哈哈。
-
-这次 VP 体验还不错，div.2 的场AC了4道（算是），但是其实这四道题都不是特别难，没什么算法。
-
 ### A1. Non-alternating Deck (easy version)
 
 #### Problem Thought
