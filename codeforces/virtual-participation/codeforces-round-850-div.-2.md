@@ -1,12 +1,12 @@
-# Codeforces Round 850 Div.2
+# Codeforces Round 850 Div. 2
 
-### A1. Non-alternating Deck (easy version)
+## A1. Non-alternating Deck (easy version)
 
-#### Problem Thought
+### Problem Thought
 
 简单模拟
 
-#### Problem Solution
+### Problem Solution
 
 {% code fullWidth="false" %}
 ```cpp
@@ -27,13 +27,13 @@ void sol() {
 ```
 {% endcode %}
 
-### A2. Alternating Deck (hard version) solution 1
+## A2. Alternating Deck (hard version) solution 1
 
-#### Problem Thought
+### Problem Thought
 
 在 A1 的基础上的模拟
 
-#### Problem Solution
+### Problem Solution
 
 {% code fullWidth="false" %}
 ```cpp
@@ -68,13 +68,13 @@ void sol() {
 ```
 {% endcode %}
 
-### B. Cake Assembly Line solution 1
+## B. Cake Assembly Line solution 1
 
-#### Problem Thought
+### Problem Thought
 
 先将所有的蛋糕与巧克力分配器位置初始化：整体位置左移，使得 $$a_1 - w$$ 和 $$b_1 - h$$ 等于 $$0$$，然后二分分配器的右移距离，对于每一对蛋糕和喷洒器，若出现了 $$b_i - h < a_i - w$$，更新 $$l$$，若出现了 $$b_i - h > a_i - w$$，更新 $$r$$，若每一对都满足题意，则直接输出 `YES` 并返回。
 
-#### Problem Solution
+### Problem Solution
 
 {% code fullWidth="false" %}
 ```cpp
@@ -117,13 +117,13 @@ void sol() {
 
 
 
-### B. Cake Assembly Line solution 2
+## B. Cake Assembly Line solution 2
 
-#### Problem Thought
+### Problem Thought
 
 分配器和蛋糕是成对出现的，对于每一对物品，求出为使这一对满足题意的，可以移动的距离的区间，若对于每一对求出的区间存在交集，则满足题意。
 
-#### Problem Solution
+### Problem Solution
 
 {% code fullWidth="false" %}
 ```cpp
@@ -147,13 +147,13 @@ void sol() {
 ```
 {% endcode %}
 
-### C. Monsters (easy version)
+## C. Monsters (easy version)
 
-#### Problem Thought
+### Problem Thought
 
 构造数列 $$a_i = i ,\ i \in [1, \ x]$$ 即可，当有不满足数列的情况出现时，从这一位开始向后寻找，存在的数使它成为这一个数，并更新 ans。
 
-#### Problem Solution
+### Problem Solution
 
 ```cpp
 void sol() {
