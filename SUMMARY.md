@@ -4,6 +4,8 @@
 
 ## codeforces
 
+* [Virtual participation](codeforces/virtual-participation/README.md)
+  * [Page 2](codeforces/virtual-participation/page-2.md)
 * [inferior to div2](group-1/page-1/README.md)
 * [div 2](group-1/page-1/page-2/README.md)
 
