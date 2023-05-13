@@ -4,6 +4,8 @@
 
 时间紧张，没有参加
 
+
+
 ## A. New Palindrome <a href="#name-1" id="name-1"></a>
 
 ### Problem Thought <a href="#problem-thought-1" id="problem-thought-1"></a>
@@ -27,6 +29,8 @@ void sol() {
     std::cout << "NO\n";
 }
 ```
+
+##
 
 ## B. Maximum Sum
 
@@ -85,6 +89,8 @@ void sol() {
     std::cout << ans << '\n';
 }
 ```
+
+## &#x20;<a href="#name-4" id="name-4"></a>
 
 ## Name <a href="#name-4" id="name-4"></a>
 
