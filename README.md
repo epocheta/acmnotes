@@ -1,9 +1,9 @@
 # Intro
 
-### Algorithm Templates
+### Home
 
-{% content-ref url="http://localhost:5000/o/7oNwhHoYu9UzJCw51ukS/s/lTwfzearuJ6mQYNrZV3g/" %}
-[acm algorithms template](http://localhost:5000/o/7oNwhHoYu9UzJCw51ukS/s/lTwfzearuJ6mQYNrZV3g/)
+{% content-ref url="http://localhost:5000/o/7oNwhHoYu9UzJCw51ukS/s/CkEiTg9SkwXT1Y53StuU/" %}
+[Home](http://localhost:5000/o/7oNwhHoYu9UzJCw51ukS/s/CkEiTg9SkwXT1Y53StuU/)
 {% endcontent-ref %}
 
 ```
