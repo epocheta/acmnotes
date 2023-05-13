@@ -13,14 +13,3 @@
 
 * [New Coder](misc/new-coder/README.md)
   * [小白月赛 Round 72](misc/new-coder/xiao-bai-yue-sai-round-72.md)
-
-## category
-
-* [Dynamic Programing](category/dynamic-programing/README.md)
-  * [Codeforces Round 826 Div.3-E](category/dynamic-programing/easy-dp/codeforces-round-826-div.3-e.md)
-* [Disjoint Set](category/disjoint-set/README.md)
-  * [Phase\_Shift](category/disjoint-set/phase\_shift.md)
-  * [Mocha and Diana (Easy Version)](category/disjoint-set/mocha-and-diana-easy-version.md)
-  * [Food chians](category/disjoint-set/food-chians.md)
-* [Discretization](category/discretization/README.md)
-  * [区间和](category/discretization/qu-jian-he.md)
