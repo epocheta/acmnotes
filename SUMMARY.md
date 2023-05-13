@@ -7,7 +7,7 @@
 * [Div. 2](group-1/page-1/page-2/README.md)
 * [Div. 3 or Div. 4](group-1/page-1/README.md)
 * [Educational](crossfire/educational/README.md)
-  * [Round 148](crossfire/educational/round-148.md)
+  * [Edu Round 148](crossfire/educational/edu-round-148.md)
 * [Virtual Participation](codeforces/virtual-participation/README.md)
   * [Codeforces Round 850 Div. 2](codeforces/virtual-participation/codeforces-round-850-div.2.md)
 

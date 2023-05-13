@@ -1,8 +1,8 @@
-# Round 148
+# Edu Round 148
 
 ### Summarize <a href="#name" id="name"></a>
 
-时间紧张，没有参加
+时间紧张，没有参加，没有总结。
 
 
 
@@ -10,7 +10,7 @@
 
 ### Problem Thought <a href="#problem-thought-1" id="problem-thought-1"></a>
 
-​寻找 $$[1, \ \lfloor \frac{n} {2} \rfloor ]$$ 是否有不同的字符即可
+​寻找 $$[0, \ \lfloor \frac{n} {2} \rfloor ]$$ 是否有不同的字符即可。
 
 ### Implementation <a href="#implementation-1" id="implementation-1"></a>
 
