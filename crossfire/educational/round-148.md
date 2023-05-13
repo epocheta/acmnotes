@@ -8,11 +8,25 @@
 
 ### Problem Thought <a href="#problem-thought-1" id="problem-thought-1"></a>
 
-​
+​寻找 $$[1, \ \lfloor \frac{n} {2} \rfloor ]$$ 是否有不同的字符即可
 
 ### Implementation <a href="#implementation-1" id="implementation-1"></a>
 
-​​
+```cpp
+void sol() {
+    std::string s;
+    std::cin >> s;
+
+    for (int i = 1; i < s.size() / 2; i++) {
+        if (s[i] != s[i - 1]) {
+            std::cout << "YES\n";
+            return;
+        }
+    }
+
+    std::cout << "NO\n";
+}
+```
 
 ## B. Maximum Sum
 
