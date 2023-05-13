@@ -36,7 +36,7 @@ void sol() {
 
 ### Problem Thought <a href="#problem-thought-2" id="problem-thought-2"></a>
 
-​考虑到 $$k$$ 值一定，即无论以如何方法去删数，都会删除前 $$2x$$ 个和后 $$y$$ 个，且 $$x + y = k$$，因此可以想到枚举 $$x$$ 或 $$y$$ 去求出最优解，预处理一个前缀和数组即可，时间复杂度为 $$O(n)$$。
+​考虑到 $$k$$ 值一定，即无论以如何方法去删数，都会删除前 $$2x$$ 个和后 $$y$$ 个，且 $$x + y = k$$，因此可以想到枚举 $$x$$ 或 $$y$$ 去求出最优解，预处理一个前缀和数组即可，时间复杂度为 $$O(2n)$$。
 
 ### Implementation <a href="#implementation-2" id="implementation-2"></a>
 
