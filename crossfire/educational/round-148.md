@@ -92,10 +92,52 @@ void sol() {
 
 ## &#x20;<a href="#name-4" id="name-4"></a>
 
-## Name <a href="#name-4" id="name-4"></a>
+## D1 Red-Blue Operations (Easy Version) <a href="#name-4" id="name-4"></a>
 
 ### Problem Thought <a href="#problem-thought-4" id="problem-thought-4"></a>
 
 ​
 
 ### Implementation <a href="#implementation-4" id="implementation-4"></a>
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+int main() {
+    std::ios::sync_with_stdio(false);
+    std::cin.tie(nullptr);
+
+    int n, m, k;
+    std::cin >> n >> m;
+
+    std::vector<int> A(n);
+    for (auto & i : A) std::cin >> i;
+
+    std::ranges::sort(A);
+
+    while (m--) {
+        std::cin >> k;
+        auto a = A;
+
+        for (int i = 0; i < n && k; i++, k--) {
+            if (i < n - 1 || k % 2) a[i] += k; 
+        }
+                
+        int MIN = * std::min_element(a.begin(), a.end());
+
+        if (k % 2) k++;
+        k /= 2;
+
+        for (int i = 0; i < n && k > 0; i++) {
+            if (a[i] > MIN) k -= a[i] - MIN, a[i] = MIN;
+        }          
+        
+        if (k > 0) MIN -= ((k - 1) / n) + 1;
+        std::cout << MIN << ' ';
+    }
+
+    return 0;
+}
+```
