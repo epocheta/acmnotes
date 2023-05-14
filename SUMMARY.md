@@ -13,5 +13,5 @@
 
 ## Misc
 
-* [New Coder](misc/new-coder/README.md)
-  * [小白月赛 Round 72](misc/new-coder/xiao-bai-yue-sai-round-72.md)
+* [Now Coder](misc/now-coder/README.md)
+  * [小白月赛 Round 72](misc/now-coder/xiao-bai-yue-sai-round-72.md)

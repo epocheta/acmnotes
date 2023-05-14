@@ -159,6 +159,57 @@ void sol() {
 
 ### Problem Thought <a href="#problem-thought-4" id="problem-thought-4"></a>
 
-​
+​假设每一种做法都允许，对于寻找 $$n * m$$ 种组合中的第 k 小的数，因为数据过大所以不能直接构成 $$n * m$$ 大的数组。我们可以二分一个值，判断他是第几小，然后二分出答案。对于 check 函数，我们可以用双指针算法，将数组 $$a, \ b$$ 排序后，因为对于$$a_i \cdot b_j > mid$$ 一定有 $$a_{i + 1} \cdot b_j > mid$$，所以我们可以使指针 $$i$$ 从头开始枚举，$$j$$ 从尾部开始枚举，找到满足小于等于 mid 值的组合的数量。
+
+对于附加条件，计算之后排序，每次二分减去小于等于 mid 的数量即可。
 
 ### Implementation <a href="#implementation-4" id="implementation-4"></a>
+
+```cpp
+void sol() {
+    int n, m, K, Q;
+    std::cin >> n >> m >> K >> Q;
+
+    std::vector<int> a(n), b(m);
+    std::vector<i64> ban(K);
+
+    for (auto & i : a) std::cin >> i;
+    for (auto & i : b) std::cin >> i;
+
+    for (int i = 0, u, v; i < K; i++) {
+        std::cin >> u >> v;
+        ban[i] = a[u - 1] * b[v - 1];
+    }
+
+    std::sort(a.begin(), a.end());
+    std::sort(b.begin(), b.end());
+    std::sort(ban.begin(), ban.end());
+
+    auto check = [&](auto mid, auto x) {
+        i64 res = 0;
+        for (int i = 0, j = m - 1; i < n && j >= 0; i++) {
+            while (j >= 0 && 1ll * a[i] * b[j] > mid) j--;
+            res += j + 1;
+        }
+        res -= (std::upper_bound(ban.begin(), ban.end(), mid) - ban.begin());
+        return res < x;
+    };
+
+    auto binary_search = [&](auto x) {
+        i64 l = 0, r = 1e12 + 10;
+        while (l + 1 != r) {
+            i64 mid = l + r >> 1;
+            if (check(mid, x)) l = mid;
+            else r = mid;
+        }
+        return r;
+    };
+
+    while (Q--) {
+        int x;
+        std::cin >> x;
+        std::cout << binary_search(x) << '\n';
+    }
+
+}
+```
