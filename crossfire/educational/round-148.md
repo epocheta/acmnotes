@@ -67,7 +67,7 @@ void sol() {
 
 ### Problem Thought <a href="#problem-thought-3" id="problem-thought-3"></a>
 
-​找拐点
+排序，去重，看存在多少个单调区间即可。
 
 ### Implementation <a href="#implementation-3" id="implementation-3"></a>
 
@@ -96,7 +96,7 @@ void sol() {
 
 ### Problem Thought <a href="#problem-thought-4" id="problem-thought-4"></a>
 
-​
+​当 $$k$$ 小于 $$n$$ 时，所有的操作都可以是加 $$k$$，只要让最小的加上最大的 $$k$$ 就可以保证最小值最大。当 $$k$$ 大于 $$n$$ 时，仍使最大的 $$k$$ 加到最小值上，但是要考虑 当 $$k = 1$$ 时，一定是正的，所以要判断一下第 $$n-1$$ 的奇偶，若是奇数，则可以满足 $$k=1$$一定是加，否则反之，且不将其加到原数组中。接着求出剩下的操作中需要进行多少个减一操作，贪心地先使比最小值大的数进行剩下的操作，如果到最后还剩余有操作数，那就可以批量的处理 $$(k - 1) / n + 1$$ 次。减去即可求出最大的最小值。
 
 ### Implementation <a href="#implementation-4" id="implementation-4"></a>
 
