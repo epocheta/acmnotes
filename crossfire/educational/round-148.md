@@ -30,8 +30,6 @@ void sol() {
 }
 ```
 
-##
-
 ## B. Maximum Sum
 
 ### Problem Thought <a href="#problem-thought-2" id="problem-thought-2"></a>
@@ -61,8 +59,6 @@ void sol() {
 }
 ```
 
-
-
 ## C. Contrast Value
 
 ### Problem Thought <a href="#problem-thought-3" id="problem-thought-3"></a>
@@ -89,8 +85,6 @@ void sol() {
     std::cout << ans << '\n';
 }
 ```
-
-## &#x20;<a href="#name-4" id="name-4"></a>
 
 ## D1 Red-Blue Operations (Easy Version) <a href="#name-4" id="name-4"></a>
 
