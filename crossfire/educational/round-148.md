@@ -4,8 +4,6 @@
 
 时间紧张，没有参加，没有总结。
 
-
-
 ## A. New Palindrome <a href="#name-1" id="name-1"></a>
 
 ### Problem Thought <a href="#problem-thought-1" id="problem-thought-1"></a>
@@ -132,6 +130,62 @@ int main() {
         std::cout << MIN << ' ';
     }
 
+    return 0;
+}
+```
+
+## D2. Red-Blue Operations (Hard Version) <a href="#name-4" id="name-4"></a>
+
+### Problem Thought <a href="#problem-thought-4" id="problem-thought-4"></a>
+
+
+
+### Implementation <a href="#implementation-4" id="implementation-4"></a>
+
+```cpp
+int main() {
+    std::ios::sync_with_stdio(false);
+    std::cin.tie(nullptr);
+ 
+    int n, m, k;
+    std::cin >> n >> m;
+
+    std::vector<int> A(n), prefix(n, 1e9);
+    for (auto & i : A) std::cin >> i;
+ 
+    std::ranges::sort(A);
+    i64 S = std::accumulate(A.begin(), A.end(), 0ll);
+    
+    prefix[0] = A[0];
+    for (int i = 1; i < n; i++) {
+        prefix[i] = std::min(prefix[i - 1], A[i] - i);
+    }
+
+    while (m--) {
+        std::cin >> k;
+        int K = k;
+        i64 sum = S;
+        i64 MIN = 0;
+
+        if (k < n) {
+            MIN = prefix[k] + k;
+        } else if (n == 1) {
+            if (k % 2 == 0) MIN = A[0] - k / 2;
+            else MIN = A[0] + (k + 1) / 2;
+        } else {
+            sum += (2.0 * k - n + 2) / 2.0 * (n - 1);
+            k -= n - 1;
+            
+            if (k % 2 == 0) MIN = std::min(prefix[n - 2] + K, A[n - 1]);
+            else MIN = prefix[n - 1] + K, sum += k--;
+            
+            k /= 2, sum -= MIN * n;
+            if (sum < k) MIN -= ((k - sum) - 1) / n + 1;
+        }
+
+        std::cout << MIN << ' ';
+    }
+ 
     return 0;
 }
 ```
