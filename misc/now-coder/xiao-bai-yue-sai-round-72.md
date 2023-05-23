@@ -4,13 +4,11 @@
 
 <div align="center">
 
-<figure><img src="../../.gitbook/assets/image.png" alt="rating++" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt="rating++" width="375"><figcaption></figcaption></figure>
 
 </div>
 
 三道签到题，所以是手速场，手机卡我在我这里，暂时没法儿登我之前的账号（虽然之前的账号也就打了一场 Rating，分还没这把给的多），所以就用校园卡新开了个账号，没想到结算完成一看分还不低。其实本来是要写一两道就得赶紧去看数学建模的题的，谁知道这个 D 题这么难写，我用 DFS 连第一个样例都没有过，气得我一直写一直写，一下从本来七点半要结束的场写到了八点半，还是没有写出来，哈哈哈哈。
-
-
 
 ## A. 跳跃游戏
 
@@ -32,8 +30,6 @@ int main () {
     else std::cout << "NO\n";
 }
 ```
-
-
 
 ## B. 数数
 
@@ -59,8 +55,6 @@ int main () {
     return 0;
 }
 ```
-
-
 
 ## C. 操作数组 <a href="#name-2" id="name-2"></a>
 
@@ -94,8 +88,6 @@ int main () {
     std::cout << ans << "\n";    
 }
 ```
-
-
 
 ## D. 遗迹探险 <a href="#name-3" id="name-3"></a>
 
@@ -152,8 +144,6 @@ void sol() {
     }
 }
 ```
-
-
 
 ## E. 顶级厨师 <a href="#name-4" id="name-4"></a>
 

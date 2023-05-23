@@ -2,7 +2,7 @@
 
 ### Summarize <a href="#name" id="name"></a>
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 我的评价是，幸亏写出来了 $$D$$。
 
@@ -170,9 +170,9 @@ void sol () {
 
 偷学一手 $$jiangly$$ 的并查集做法以及并查集板子。
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>from jiangly </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-蒋老师的题解已经特别清晰了，一语中的，但是对我们这种新手不太友好，板子就不说了，主要说 $$sol$$ 函数部分，首先，如何判断有几个连通块呢，我们可以知道，对于每一个连通块，都有一个元素，其祖宗节点等于自身即 $$fa[x] = x$$，所以我们只要遍历判断即可找到。那我们该如何判断这个连通块是否构成了环呢，其实这个问题可以转化为，这个连通块是否不是环，即是否是链，对于一个链，链的末尾的人的邻居一定不是链头，而是这个人的前面那个人，所以只需要找到符合这个条件的人，将这个连通块标记为链即可。
+蒋老师的题解已经特别清晰了，一语中的。但是对我们这种新手不太友好。板子就不说了，主要说 $$sol$$ 函数部分。首先，如何判断有几个连通块呢？我们可以知道，对于每一个连通块，都有一个元素，其祖宗节点等于自身即 $$fa[x] = x$$，所以我们只要遍历判断即可找到。那我们该如何判断这个连通块是否构成了环呢，其实这个问题可以转化为，这个连通块是否不是环，即是否是链，对于一个链，链的末尾的人的邻居一定不是链头，而是这个人的前面那个人，所以只需要找到符合这个条件的人，将这个连通块标记为链即可。
 
 ### Implementation <a href="#implementation-4" id="implementation-4"></a>
 
