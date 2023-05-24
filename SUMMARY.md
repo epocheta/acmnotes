@@ -11,3 +11,7 @@
   * [graph theory](basic-algorithm/basic/graph-theory.md)
 
 ## Basic Datastructure
+
+* [Disjoint union](basic-datastructure/disjoint-union.md)
+* [Fenwick Tree](basic-datastructure/fenwick-tree.md)
+* [Segment Tree](basic-datastructure/segment-tree.md)

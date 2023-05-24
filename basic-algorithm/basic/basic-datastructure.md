@@ -57,7 +57,6 @@ void push_at_right(int k, int x) {
 void remove(int k) {
     r[l[k]] = r[k], l[r[k]] = l[k];
 }
-
 ```
 
 ### stack
@@ -71,7 +70,10 @@ void push(int x) {
 void pop() {
     top -= 1;
 }
-bool empty() { return top == -1; }
+
+bool empty() { 
+    return top == -1; 
+}
 ```
 
 ### queue
@@ -82,6 +84,7 @@ int queue[maxn], tail = -1, head = 0;
 void push(int x) {
     queue[++tail] = x;
 }
+
 void pop() { head += 1; }
 
 bool emoty() { return tail >= head; }
