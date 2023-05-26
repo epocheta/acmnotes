@@ -9,7 +9,7 @@
   * [Codeforces Round 874](crossfire/page-1/codeforces-round-874.md)
 * [Educational](crossfire/educational/README.md)
   * [Edu Round 148](crossfire/educational/round-148.md)
-  * [Page 1](crossfire/educational/page-1.md)
+  * [Edu Round 149](crossfire/educational/edu-round-149.md)
 * [Virtual Participation](codeforces/virtual-participation/README.md)
   * [Codeforces Round 850 Div. 2](codeforces/virtual-participation/codeforces-round-850-div.2.md)
 
