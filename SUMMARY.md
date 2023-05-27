@@ -9,6 +9,7 @@
   * [high precision](basic-algorithm/basic/high-precision.md)
   * [basic datastructure](basic-algorithm/basic/basic-datastructure.md)
   * [graph theory](basic-algorithm/basic/graph-theory.md)
+  * [Templates](basic-algorithm/basic/templates.md)
 
 ## Basic Datastructure
 
