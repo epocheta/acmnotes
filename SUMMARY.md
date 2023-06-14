@@ -12,6 +12,7 @@
   * [Edu Round 149](crossfire/educational/edu-round-149.md)
 * [Virtual Participation](codeforces/virtual-participation/README.md)
   * [Codeforces Round 850 Div. 2](codeforces/virtual-participation/codeforces-round-850-div.2.md)
+  * [Codeforces Round 847 Div. 3](crossfire/virtual-participation/codeforces-round-847-div.-3.md)
 
 ## Misc
 
